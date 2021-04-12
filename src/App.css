@@ -1,0 +1,8 @@
+.app__itemsContainer {
+	scroll-snap-type: y mandatory;
+	overflow: auto;
+	height: 100vh;
+}
+.app__itemsContainer::-webkit-scrollbar {
+	display: none;
+}
