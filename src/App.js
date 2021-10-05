@@ -11,10 +11,11 @@ function App() {
 		<div>
 			<Header />
 			<div className='app__itemsContainer'>
-				{data.map((item) => (
+				{data.map(item => (
 					<Item details={item} />
 				))}
 			</div>
+			<CircleIndicator />
 		</div>
 	);
 }
